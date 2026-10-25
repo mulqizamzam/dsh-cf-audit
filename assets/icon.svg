@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title desc">
+  <title id="title">DSH Security Audit</title>
+  <desc id="desc">A shield with source lines and a verification lens.</desc>
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="#102a43"/>
+  <path d="M64 19 99 32v27c0 23-15 39-35 50C44 98 29 82 29 59V32Z" fill="#f1f5f9"/>
+  <path d="M64 30 88 39v20c0 17-10 29-24 38C50 88 40 76 40 59V39Z" fill="#d9e8f2"/>
+  <path d="M49 49h23M49 59h18M49 69h11" fill="none" stroke="#102a43" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="78" cy="75" r="13" fill="#087e8b" stroke="#102a43" stroke-width="4"/>
+  <path d="m87 85 9 9" stroke="#102a43" stroke-width="6" stroke-linecap="round"/>
+  <path d="m72 75 4 4 8-9" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

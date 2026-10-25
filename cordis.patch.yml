@@ -1,0 +1,4 @@
+# Add the audit skill provider to the active profile composition.
+- insert:
+    - id: dsh-cf-audit
+      name: dsh-cf-audit

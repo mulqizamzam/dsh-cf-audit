@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "id": "example-review-001",
+    "repository": "example-service",
+    "sourceRef": "replace-with-reviewed-commit",
+    "startedAt": "2026-10-26T00:00:00Z",
+    "completedAt": "2026-10-26T00:30:00Z",
+    "mode": "scoped",
+    "status": "complete",
+    "executionPolicy": "source-review-only",
+    "scopePaths": ["src/auth", "src/api"]
+  },
+  "summary": "Example only: replace this summary with evidence-supported conclusions from the reviewed source revision.",
+  "coverage": {
+    "status": "partial",
+    "unitIds": ["authorization-boundaries"],
+    "knownGaps": ["Deployment behavior was not independently validated."]
+  },
+  "findings": []
+}

@@ -1,0 +1,50 @@
+{
+  "name": "dsh-cf-audit",
+  "version": "0.1.0",
+  "title": "DSH Security Audit",
+  "description": "Structured, evidence-led security review workflows for DeepSeek Harness.",
+  "author": "mulqizamzam",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/index.js",
+    "skills/",
+    "scripts/",
+    "assets/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "SECURITY.md"
+  ],
+  "homepage": "https://github.com/mulqizamzam/dsh-cf-audit#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mulqizamzam/dsh-cf-audit.git"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "security-review",
+    "vulnerability-triage",
+    "defensive-security"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.1-rc.2 <0.2.1-rc.3"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate-package.mjs && node --test"
+  },
+  "icon": "./assets/icon.svg"
+}

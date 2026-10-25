@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "repository": {
+    "path": "example-service",
+    "revision": "replace-with-reviewed-commit",
+    "dirty": false
+  },
+  "scope": {
+    "includedPaths": ["src/auth", "src/api"],
+    "excludedPaths": ["vendor"],
+    "authorization": "Source review of the named local checkout was authorized; no deployed target testing is included.",
+    "limitations": ["Example only; replace these paths and limitations before use."]
+  },
+  "claim": "partial",
+  "updatedAt": "2026-10-26T00:30:00Z",
+  "units": [
+    {
+      "id": "authorization-boundaries",
+      "surface": "Request authentication and authorization",
+      "paths": ["src/auth", "src/api"],
+      "priority": "high",
+      "status": "planned",
+      "checks": ["Trace identity from request entry point to the final authorization decision.", "Check negative and cross-tenant cases in tests."]
+    }
+  ]
+}

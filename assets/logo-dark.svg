@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" width="320" height="96" role="img" aria-labelledby="title desc">
+  <title id="title">DSH Security Audit</title><desc id="desc">Source-grounded security investigation and verification.</desc>
+  <g transform="translate(8 4)">
+    <rect x="0" y="0" width="88" height="88" rx="19" fill="#eaf2f8"/>
+    <path d="M44 11 69 20v21c0 17-11 28-25 36C30 69 19 58 19 41V20Z" fill="#102a43"/>
+    <path d="M44 20 61 26v15c0 12-7 21-17 27C34 62 27 53 27 41V26Z" fill="#24465f"/>
+    <path d="M33 34h17M33 42h13M33 50h8" fill="none" stroke="#f1f5f9" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="55" cy="54" r="9.5" fill="#21a6ad" stroke="#102a43" stroke-width="3"/>
+    <path d="m62 61 6 6" stroke="#102a43" stroke-width="4" stroke-linecap="round"/>
+    <path d="m51 54 3 3 5-6" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="112" y="43" fill="#f1f5f9" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="750">DSH Security</text>
+  <text x="112" y="69" fill="#39c0c8" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="650">Audit</text>
+</svg>
